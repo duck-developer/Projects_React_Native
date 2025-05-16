@@ -16,8 +16,8 @@ import { signInWithEmailAndPassword } from 'firebase/auth'
 
 export default function Login({navigation}) {
     //<script>
-    const [email, setEmail] = useState("ikaroassis08@gmail.com")
-    const [senha, setSenha] = useState("ikaroass")
+    const [email, setEmail] = useState("")
+    const [senha, setSenha] = useState("")
 
      async function handleLogin(){        
         if (email === '' || senha === "") {
